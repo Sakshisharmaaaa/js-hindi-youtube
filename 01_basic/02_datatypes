@@ -1,0 +1,10 @@
+let age = 13
+let name = "Sakshi"
+//let state;//undefined
+let state = null
+
+console.log(age);
+
+console.log(typeof null);//object
+console.log(typeof undefined)//undefined
+console.log(state);

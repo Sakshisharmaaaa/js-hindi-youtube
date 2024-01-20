@@ -1,0 +1,9 @@
+const accid = 14
+let accemail = "ss.com"
+var accpass = "1234"
+
+accpass = "34567"
+accemail = "hc.com"
+
+
+console.table([accpass,accemail])
