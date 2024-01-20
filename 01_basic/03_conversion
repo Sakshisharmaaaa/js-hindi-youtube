@@ -1,0 +1,72 @@
+let score = "34abc"
+// console.log(score);
+
+// console.log(typeof score); // write in both ways
+// console.log(typeof (score));
+
+let scoreinnumber = Number(score)
+// console.log(typeof scoreinnumber);
+// console.log(scoreinnumber);
+
+//33>= number
+//33abc>= NaN (not a number)
+//true>= 1; false>=0;
+
+let isloggedin = "SAKSHI"
+
+let booleanisloggedin = Boolean(isloggedin)
+//console.log(booleanisloggedin);
+
+let dear = 33
+//console.log(dear);
+let StringNumber = String(dear)
+// console.log(typeof StringNumber);
+
+
+
+// operations
+
+let value = 4
+let negval = -value
+// console.log(negval);
+// console.log(2**3);
+
+let str1 = 4
+let str2 = 2
+
+let str3 = str1 + str2
+//console.log(str3);
+
+// console.log("2" + 3);
+// console.log(3 + "2");
+// console.log(3 +1+"2");
+// console.log("3"+2+2+1);
+// console.log("3"+(2+2+1));
+
+// let x = 3;
+// const y = x++;
+// console.log(y);
+
+// let x = 3;
+// const y = ++x;
+// console.log(y);
+
+// let x2 = 3n;
+// const y2 = x2++;
+// console.log(x2);
+
+// let x = 3n;
+// const y = ++x;
+// console.log(x);
+// console.log(y);
+
+// console.log("2">3)
+// console.log("02">1)
+
+// console.log(null>0);
+// console.log(null>=0);
+// console.log(null<=0);
+// console.log(null==0)
+
+console.log("2"==2);
+console.log("2"===2);
