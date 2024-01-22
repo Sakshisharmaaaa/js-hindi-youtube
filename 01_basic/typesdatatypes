@@ -54,3 +54,37 @@ const url = "https://sakshisharma%20.com"
 // console.log(url.includes('sha'))
 // console.log(url.split('%'));
 // console.log(url.endsWith('.com','27'))
+
+// const a = new String("Hello world"); // a === "Hello world" is false
+// console.log(a);
+// const b = String("Hello world"); // b === "Hello world" is true
+// console.log(b);
+
+// console.log(typeof a); 
+// console.log(typeof b);
+
+// const str = 'Life, the universe and everything. Answer:';
+
+// console.log(`${str}${str.length}`);
+
+// const a = "my name is kishori. Age:";
+// console.log(`${a}${a.length}`);
+
+// const formula = "∀𝑥∈ℝ,𝑥²≥0";
+// console.log(formula.length); // 11
+//  console.log([...formula].length); // 9
+
+// const a = "qwerty𝑥²>0";
+// console.log(a.length);
+// console.log([...a].length);
+
+// const myString = "bluebells";
+
+// myString.length = 4;/*it willnot effect on myString becausestring is primitive and
+// seen no observable effect & will throw in strict mode*/
+
+// console.log(myString); // "bluebells"
+// console.log(myString.length);
+
+//************Nums and Maths************** *//
+
