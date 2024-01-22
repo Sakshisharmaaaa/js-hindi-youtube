@@ -1,0 +1,56 @@
+// reference / non primitive(arrays,functions,objects)
+
+//arrays
+
+// const heroes = ["sakshi","sharma","30"]
+// console.log(heroes);
+
+//functions
+// const myfunction = function(){
+//     console.log("Hello world")
+// }
+
+// //objects
+
+// let myobject = {
+//     name: Sakshi,
+//     age: 23,
+// }
+
+/*primitive (string,boolean,number,symbol,undefined,null,bigint)
+stack (primitive)  , heap (non primitve)*/
+
+// *****************STRINGS
+
+
+// const name = "sakshi"
+// const lastname = "sharma"
+
+// console.log(`Hello my name is ${name}  and last name is ${lastname}`);//updated symtax
+
+
+const game = new String("Sakshisharma")
+// console.log(game);
+// console.log(game[4]);
+
+// console.log(game.length);
+// console.log(game.toUpperCase());
+// console.log(game.charAt(4));
+// console.log(game.indexOf('h'));
+
+// const fen = game.substring(0, 4)//it does not include 4th number
+// console.log(fen);
+
+// const den = game.slice(-12,7)// 7 depends on length
+// console.log(den);
+
+// const hen = "    MEHUL    "
+// console.log(hen);
+// console.log(hen.trim());
+
+const url = "https://sakshisharma%20.com"
+// console.log(url);
+// console.log(url.replace('%20','-'))
+// console.log(url.includes('sha'))
+// console.log(url.split('%'));
+// console.log(url.endsWith('.com','27'))
